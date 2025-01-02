@@ -1,0 +1,79 @@
+{
+  "navigation": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Professional Translation",
+    "subtitle": "and Interpretation Services",
+    "description": "Bridging language barriers with expert translation and interpretation services. Specializing in German, English, and Croatian languages for business, legal, and personal needs.",
+    "cta": {
+      "primary": "Get Started",
+      "secondary": "Our Services"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Professional translation and interpretation services in German, English, and Croatian",
+    "items": {
+      "document": {
+        "title": "Document Translation",
+        "description": "Professional translation of documents, certificates, and official papers with certified accuracy."
+      },
+      "interpretation": {
+        "title": "Interpretation Services",
+        "description": "Real-time interpretation for meetings, conferences, and business negotiations."
+      },
+      "technical": {
+        "title": "Technical Translation",
+        "description": "Specialized translation of technical documents, manuals, and specifications."
+      },
+      "business": {
+        "title": "Business Translation",
+        "description": "Translation services for business documents, contracts, and corporate communications."
+      },
+      "legal": {
+        "title": "Legal Translation",
+        "description": "Expert translation of legal documents with attention to legal terminology and requirements."
+      },
+      "cultural": {
+        "title": "Cultural Consulting",
+        "description": "Cultural adaptation and consulting services for effective cross-cultural communication."
+      }
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Your Trusted Translation Partner",
+    "mission": {
+      "title": "Our Mission",
+      "description": "We are dedicated to breaking down language barriers and facilitating clear communication across cultures. With years of experience in professional translation and interpretation, we ensure accuracy, cultural sensitivity, and timely delivery of all our services."
+    },
+    "expertise": {
+      "title": "Our Expertise",
+      "items": {
+        "legal": "Specialized in legal document translation and court interpretation",
+        "technical": "Expert technical translation for various industries",
+        "business": "Professional business communication and document translation",
+        "cultural": "Cultural consulting and adaptation services"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with us for your translation needs",
+    "form": {
+      "name": "Your Name",
+      "email": "Email Address",
+      "message": "Message",
+      "submit": "Send Message"
+    }
+  },
+  "footer": {
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyright": " 2025 Dolmetscherdienste Rerri. All rights reserved."
+  }
+}

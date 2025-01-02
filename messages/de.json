@@ -1,0 +1,80 @@
+{
+  "navigation": {
+    "home": "Startseite",
+    "services": "Dienstleistungen",
+    "about": "Über uns",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Professionelle Übersetzung",
+    "subtitle": "und Dolmetscherdienste",
+    "description": "Überbrückung von Sprachbarrieren mit professionellen Übersetzungs- und Dolmetscherdiensten. Spezialisiert auf Deutsch, Englisch und Kroatisch für geschäftliche, rechtliche und private Anforderungen.",
+    "cta": {
+      "primary": "Jetzt starten",
+      "secondary": "Unsere Dienstleistungen"
+    }
+  },
+  "services": {
+    "title": "Unsere Dienstleistungen",
+    "subtitle": "Professionelle Übersetzungs- und Dolmetscherdienste in Deutsch, Englisch und Kroatisch",
+    "items": {
+      "document": {
+        "title": "Dokumentenübersetzung",
+        "description": "Professionelle Übersetzung von Dokumenten, Zertifikaten und offiziellen Papieren mit zertifizierter Genauigkeit."
+      },
+      "interpretation": {
+        "title": "Dolmetscherdienste",
+        "description": "Echtzeitdolmetschen für Meetings, Konferenzen und Geschäftsverhandlungen."
+      },
+      "technical": {
+        "title": "Technische Übersetzung",
+        "description": "Spezialisierte Übersetzung von technischen Dokumenten, Handbüchern und Spezifikationen."
+      },
+      "business": {
+        "title": "Geschäftsübersetzung",
+        "description": "Übersetzungsdienste für Geschäftsdokumente, Verträge und Unternehmenskommunikation."
+      },
+      "legal": {
+        "title": "Juristische Übersetzung",
+        "description": "Beglaubigte Übersetzung von Rechtsdokumenten, Verträgen und Gerichtspapieren."
+      },
+      "cultural": {
+        "title": "Kulturberatung",
+        "description": "Expertenberatung zu kulturellen Nuancen und Geschäftsetikette für internationale Kommunikation."
+      }
+    }
+  },
+  "about": {
+    "title": "Über uns",
+    "subtitle": "Erfahren Sie mehr über unsere Geschichte und Mission",
+    "mission": {
+      "title": "Unsere Mission",
+      "description": "Wir setzen uns dafür ein, sprachliche und kulturelle Barrieren zu überwinden und Menschen und Unternehmen dabei zu helfen, effektiv zu kommunizieren."
+    },
+    "expertise": {
+      "title": "Unsere Expertise",
+      "items": {
+        "legal": "Spezialisierung auf juristische Übersetzungen und Beglaubigungen",
+        "technical": "Umfassende Erfahrung in technischen Übersetzungen",
+        "business": "Professionelle Geschäftsübersetzungen",
+        "cultural": "Kulturelle Beratung und interkulturelle Kommunikation"
+      }
+    }
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Kontaktieren Sie uns für professionelle Übersetzungsdienste",
+    "form": {
+      "name": "Name",
+      "email": "E-Mail",
+      "message": "Nachricht",
+      "submit": "Nachricht senden"
+    }
+  },
+  "footer": {
+    "subtitle": "Professionelle Übersetzungsdienste",
+    "privacy": "Datenschutz",
+    "terms": "AGB",
+    "rights": "Alle Rechte vorbehalten."
+  }
+}
