@@ -1,9 +1,11 @@
+'use client';
+
 import {NextIntlClientProvider} from 'next-intl';
 import {notFound} from 'next/navigation';
-import {Inter} from 'next/font/google';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import {ThemeProvider} from '@/context/ThemeContext';
+import {Inter} from 'next/font/google';
 import '../globals.css';
 
 const inter = Inter({subsets: ['latin']});
@@ -32,9 +34,11 @@ export default async function LocaleLayout({
       <body className={`${inter.className} bg-white dark:bg-gray-900 transition-colors`}>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <ThemeProvider>
-            <div className="flex flex-col min-h-screen">
+            <div className="min-h-screen flex flex-col">
               <Header />
-              <main className="flex-grow">{children}</main>
+              <main className="flex-grow pt-20">
+                {children}
+              </main>
               <Footer />
             </div>
           </ThemeProvider>
