@@ -52,8 +52,7 @@ export default function Footer() {
           </a>
         </div>
         <p className="mt-8 text-center text-base text-gray-500 dark:text-gray-400">
-          &copy;{t('copyright')} {new Date().getFullYear()} Dolmetscherdienste Rerri.{' '}
-          {t('rights')}
+          &copy; {new Date().getFullYear()} {t('copyright')}
         </p>
       </div>
     </footer>
