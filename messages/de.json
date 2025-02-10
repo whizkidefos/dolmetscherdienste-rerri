@@ -69,6 +69,24 @@
       "email": "E-Mail",
       "message": "Nachricht",
       "submit": "Nachricht senden"
+    },
+    "email": "E-Mail",
+    "address": "Adresse",
+    "phone": "Telefon",
+    "hours": "Oeffnungszeiten",
+    "openingHours": {
+      "monday": "Montag",
+      "tuesday": "Dienstag",
+      "wednesday": "Mittwoch",
+      "thursday": "Donnerstag",
+      "friday": "Freitag",
+      "saturday": "Samstag",
+      "sunday": "Sonntag",
+      "weekendHours": "Geschlossen am Wochenende"
+    },
+    "weekendHours": {
+      "saturday": "Samstag",
+      "sunday": "Sonntag"
     }
   },
   "footer": {

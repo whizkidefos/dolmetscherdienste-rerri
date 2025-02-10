@@ -6,8 +6,8 @@ import {motion} from 'framer-motion';
 const contactItems = [
   {
     icon: Phone,
-    text: '+49 176 24022765',
-    href: 'tel:+4917624022765',
+    text: '+49 173 70 40 331',
+    href: 'tel:+491737040331',
   },
   {
     icon: Mail,
@@ -16,8 +16,8 @@ const contactItems = [
   },
   {
     icon: MapPin,
-    text: 'Nürnberg, Germany',
-    href: 'https://maps.google.com/?q=Nürnberg',
+    text: 'Heyerhoffstraße 38, 45770 Marl, Germany',
+    href: 'https://maps.google.com/?q=Heyerhoffstraße 38, 45770 Marl, Germany',
   },
 ];
 

@@ -37,7 +37,7 @@ export default function Footer() {
         </nav>
         <div className="mt-8 flex justify-center space-x-6">
           <a
-            href="tel:+4917624022765"
+            href="tel:+491737040331"
             className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
           >
             <span className="sr-only">Phone</span>

@@ -6,11 +6,12 @@ import {useEffect, useState} from 'react';
 import Image from 'next/image';
 
 const titles = [
-  'Professional Translation',
-  'Expert Interpretation',
-  'Cultural Consulting',
-  'Business Communication',
-  'Technical Translation',
+  'Simultaneous Interpretation',
+  'Consecutive Interpretation',
+  'Whispered Interpretation (Chuchotage)',
+  'Relay Interpretation',
+  'Over-the-Phone Interpretation (OPI)',
+  'Video Remote Interpretation (VRI)',
 ];
 
 const images = [
@@ -81,7 +82,7 @@ export default function Hero() {
                     animate={{y: 0, opacity: 1}}
                     exit={{y: -40, opacity: 0}}
                     transition={{duration: 0.5}}
-                    className="text-5xl lg:text-7xl font-extrabold tracking-tight"
+                    className="text-3xl lg:text-5xl font-extrabold tracking-tight"
                   >
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-400 dark:from-blue-400 dark:to-blue-300">
                       {titles[currentTitle]}

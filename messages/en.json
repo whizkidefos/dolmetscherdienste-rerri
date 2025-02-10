@@ -69,6 +69,24 @@
       "email": "Email Address",
       "message": "Message",
       "submit": "Send Message"
+    },
+    "email": "Email Address",
+    "address": "Address",
+    "phone": "Phone Number",
+    "hours": "Hours of Operation",
+    "openingHours": {
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday",
+      "sunday": "Sunday",
+      "weekendHours": "Closed on Weekends"
+    },
+    "weekendHours": {
+      "saturday": "Saturday",
+      "sunday": "Sunday"
     }
   },
   "footer": {

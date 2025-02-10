@@ -48,7 +48,7 @@ export default function ContactPage() {
                       href="tel:+4917624022765"
                       className="hover:text-blue-600 dark:hover:text-blue-400"
                     >
-                      +49 176 24022765
+                      +49 173 70 40 331
                     </a>
                   </p>
                 </div>
@@ -86,9 +86,9 @@ export default function ContactPage() {
                     {t('address')}
                   </h3>
                   <p className="mt-2 text-base text-gray-600 dark:text-gray-300">
-                    Musterstraße 123
+                  Heyerhoffstraße 38,
                     <br />
-                    12345 Berlin, Germany
+                    45770 Marl, Germany
                   </p>
                 </div>
               </div>
@@ -104,9 +104,9 @@ export default function ContactPage() {
                     {t('hours')}
                   </h3>
                   <p className="mt-2 text-base text-gray-600 dark:text-gray-300">
-                    {t('hours.weekdays')}
+                    {t('openingHours.monday')} - {t('openingHours.friday')}
                     <br />
-                    {t('hours.weekend')}
+                   {t('openingHours.weekendHours')}
                   </p>
                 </div>
               </div>
