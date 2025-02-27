@@ -15,8 +15,12 @@ export default function Footer() {
     main: [
       {name: nav('home'), href: `/${locale}`},
       {name: nav('services'), href: `/${locale}/services`},
+      {name: nav('languages'), href: `/${locale}/languages`},
       {name: nav('about'), href: `/${locale}/about`},
       {name: nav('contact'), href: `/${locale}/contact`},
+    ],
+    legal: [
+      {name: t('links.legal'), href: `/${locale}/legal`},
     ],
   };
 
@@ -51,6 +55,18 @@ export default function Footer() {
             <Mail className="h-6 w-6" />
           </a>
         </div>
+        <nav className="mt-8 flex flex-wrap justify-center -mx-5 -my-2">
+          {navigation.legal.map((item) => (
+            <div key={item.name} className="px-5 py-2">
+              <Link
+                href={item.href}
+                className="text-sm text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+              >
+                {item.name}
+              </Link>
+            </div>
+          ))}
+        </nav>
         <p className="mt-8 text-center text-base text-gray-500 dark:text-gray-400">
           &copy; {new Date().getFullYear()} {t('copyright')}
         </p>

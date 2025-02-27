@@ -3,15 +3,34 @@
     "home": "Home",
     "services": "Services",
     "about": "About",
-    "contact": "Contact"
+    "contact": "Contact",
+    "languages": "Languages"
   },
   "hero": {
     "title": "Professional Translation",
     "subtitle": "and Interpretation Services",
-    "description": "Bridging language barriers with expert translation and interpretation services. Specializing in German, English, and Croatian languages for business, legal, and personal needs.",
+    "description": "Bridging language gaps in a globalized world is our mission. Our interpreter referral service connects you with highly skilled professionals -including native speakers - specializing in modern and rare languages, ensuring accurate and culturally sensitive communication in any setting.",
     "cta": {
       "primary": "Get Started",
       "secondary": "Our Services"
+    },
+    "rotatingTitles": {
+      "simultaneous": "Simultaneous Interpretation",
+      "consecutive": "Consecutive Interpretation",
+      "whispered": "Whispered Interpretation (Chuchotage)",
+      "relay": "Relay Interpretation",
+      "phone": "Over-the-Phone Interpretation (OPI)",
+      "video": "Video Remote Interpretation (VRI)"
+    },
+    "metrics": {
+      "experience": {
+        "value": "15+",
+        "label": "Years Experience"
+      },
+      "projects": {
+        "value": "3K+",
+        "label": "Projects Completed"
+      }
     }
   },
   "services": {
@@ -89,9 +108,74 @@
       "sunday": "Sunday"
     }
   },
+  "languages": {
+    "title": "Languages",
+    "subtitle": "Our Language Services",
+    "mainLanguages": {
+      "title": "Main Languages",
+      "description": "We specialize in these primary languages:",
+      "list": [
+        "German",
+        "English",
+        "Croatian"
+      ]
+    },
+    "additionalLanguages": {
+      "title": "Additional Languages",
+      "description": "Through our extensive network of qualified interpreters, we also offer services in:",
+      "list": [
+        "French",
+        "Italian",
+        "Spanish",
+        "Portuguese",
+        "Russian",
+        "Polish",
+        "Turkish",
+        "Arabic",
+        "Chinese"
+      ]
+    },
+    "customLanguages": {
+      "title": "Need Another Language?",
+      "description": "Don't see your required language? Contact us! We can likely accommodate your needs through our network of certified interpreters and translators."
+    }
+  },
   "footer": {
+    "links": {
+      "legal": "Legal Notice"
+    },
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyright": " Dolmetscherdienste Rerri. All rights reserved."
+  },
+  "legal": {
+    "title": "Legal Notice",
+    "subtitle": "Information according to § 5 TMG",
+    "responsible": {
+      "title": "Responsible Party",
+      "name": "Joseph Rerri",
+      "role": "(Interpreter and Translator)",
+      "address": "Leverkusener Straße 27",
+      "city": "45772 Marl, Germany"
+    },
+    "contact": {
+      "title": "Contact",
+      "phone": "Phone",
+      "phoneNumber": "+49 (0) 173 – 7040331",
+      "fax": "Fax",
+      "faxNumber": "+49 (0) 236-52028434",
+      "email": "Email",
+      "emailAddress": "info@dolmetscherdienst-rerri.de"
+    },
+    "editorial": {
+      "title": "Editorial Responsibility",
+      "name": "Joseph Rerri",
+      "address": "Leverkusener Straße 27",
+      "city": "45772 Marl, Germany"
+    },
+    "euDispute": {
+      "title": "EU Dispute Resolution",
+      "text": "The European Commission provides a platform for online dispute resolution (ODR): https://ec.europa.eu/consumers/odr. We are not willing or obligated to participate in dispute resolution proceedings before a consumer arbitration board / universal arbitration board."
+    }
   }
 }

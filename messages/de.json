@@ -3,15 +3,34 @@
     "home": "Startseite",
     "services": "Dienstleistungen",
     "about": "Über uns",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "languages": "Sprachen"
   },
   "hero": {
     "title": "Professionelle Übersetzung",
     "subtitle": "und Dolmetscherdienste",
-    "description": "Überbrückung von Sprachbarrieren mit professionellen Übersetzungs- und Dolmetscherdiensten. Spezialisiert auf Deutsch, Englisch und Kroatisch für geschäftliche, rechtliche und private Anforderungen.",
+    "description": "Wir haben es uns zur Aufgabe gemacht, sprachliche Lücken in einer globalisierten Welt zu schließen. Unser Dolmetschervermittlungsdienst bringt Sie mit hochqualifizierten Fachleuten zusammen, die auf moderne und seltene Sprachen spezialisiert sind, um eine präzise und kulturell sensible Kommunikation in jedem Umfeld zu gewährleisten.",
     "cta": {
       "primary": "Jetzt starten",
       "secondary": "Unsere Dienstleistungen"
+    },
+    "rotatingTitles": {
+      "simultaneous": "Simultandolmetschen",
+      "consecutive": "Konsekutivdolmetschen",
+      "whispered": "Flüsterdolmetschen (Chuchotage)",
+      "relay": "Relais-Dolmetschen",
+      "phone": "Over-the-Phone-Dolmetschen (OPI)",
+      "video": "Video-Ferndolmetschen (VRI)"
+    },
+    "metrics": {
+      "experience": {
+        "value": "15+",
+        "label": "Jahre Erfahrung"
+      },
+      "projects": {
+        "value": "3K+",
+        "label": "Abgeschlossene Projekte"
+      }
     }
   },
   "services": {
@@ -89,10 +108,75 @@
       "sunday": "Sonntag"
     }
   },
+  "languages": {
+    "title": "Sprachen",
+    "subtitle": "Unsere Sprachdienstleistungen",
+    "mainLanguages": {
+      "title": "Hauptsprachen",
+      "description": "Wir sind auf folgende Hauptsprachen spezialisiert:",
+      "list": [
+        "Deutsch",
+        "Englisch",
+        "Kroatisch"
+      ]
+    },
+    "additionalLanguages": {
+      "title": "Weitere Sprachen",
+      "description": "Durch unser umfangreiches Netzwerk qualifizierter Dolmetscher bieten wir auch Dienstleistungen in:",
+      "list": [
+        "Französisch",
+        "Italienisch",
+        "Spanisch",
+        "Portugiesisch",
+        "Russisch",
+        "Polnisch",
+        "Türkisch",
+        "Arabisch",
+        "Chinesisch"
+      ]
+    },
+    "customLanguages": {
+      "title": "Andere Sprache benötigt?",
+      "description": "Ihre gewünschte Sprache ist nicht dabei? Kontaktieren Sie uns! Durch unser Netzwerk von zertifizierten Dolmetschern und Übersetzern können wir wahrscheinlich auch Ihren Bedarf erfüllen."
+    }
+  },
   "footer": {
     "subtitle": "Professionelle Übersetzungsdienste",
+    "links": {
+      "legal": "Impressum"
+    },
     "privacy": "Datenschutz",
     "terms": "AGB",
     "rights": "Alle Rechte vorbehalten."
+  },
+  "legal": {
+    "title": "Impressum",
+    "subtitle": "Angaben gemäß § 5 TMG",
+    "responsible": {
+      "title": "Verantwortlich",
+      "name": "Joseph Rerri",
+      "role": "(Dolmetscher und Übersetzer)",
+      "address": "Leverkusener Straße 27",
+      "city": "45772 Marl, Deutschland"
+    },
+    "contact": {
+      "title": "Kontakt",
+      "phone": "Telefon",
+      "phoneNumber": "+49 (0) 173 – 7040331",
+      "fax": "Telefax",
+      "faxNumber": "+49 (0) 236-52028434",
+      "email": "E-Mail",
+      "emailAddress": "info@dolmetscherdienst-rerri.de"
+    },
+    "editorial": {
+      "title": "Redaktionell Verantwortlicher",
+      "name": "Joseph Rerri",
+      "address": "Leverkusener Straße 27",
+      "city": "45772 Marl, Deutschland"
+    },
+    "euDispute": {
+      "title": "EU-Streitschlichtung",
+      "text": "Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: https://ec.europa.eu/consumers/odr. Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle / Universal-schlichtungsstelle teilzunehmen."
+    }
   }
 }

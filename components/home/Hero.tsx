@@ -5,15 +5,6 @@ import {motion, AnimatePresence} from 'framer-motion';
 import {useEffect, useState} from 'react';
 import Image from 'next/image';
 
-const titles = [
-  'Simultaneous Interpretation',
-  'Consecutive Interpretation',
-  'Whispered Interpretation (Chuchotage)',
-  'Relay Interpretation',
-  'Over-the-Phone Interpretation (OPI)',
-  'Video Remote Interpretation (VRI)',
-];
-
 const images = [
   {
     url: 'https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?q=80&w=2070',
@@ -37,6 +28,15 @@ export default function Hero() {
   const t = useTranslations('hero');
   const [currentTitle, setCurrentTitle] = useState(0);
   const [currentImage, setCurrentImage] = useState(0);
+
+  const titles = [
+    t('rotatingTitles.simultaneous'),
+    t('rotatingTitles.consecutive'),
+    t('rotatingTitles.whispered'),
+    t('rotatingTitles.relay'),
+    t('rotatingTitles.phone'),
+    t('rotatingTitles.video'),
+  ];
 
   useEffect(() => {
     const titleTimer = setInterval(() => {
@@ -155,8 +155,12 @@ export default function Hero() {
                 transition={{delay: 1}}
                 className="bg-white/90 dark:bg-gray-900/90 backdrop-blur-sm p-6 rounded-2xl shadow-xl"
               >
-                <div className="text-4xl font-bold text-blue-600 dark:text-blue-400">15+</div>
-                <div className="text-sm text-gray-600 dark:text-gray-300">Years Experience</div>
+                <div className="text-4xl font-bold text-blue-600 dark:text-blue-400">
+                  {t('metrics.experience.value')}
+                </div>
+                <div className="text-sm text-gray-600 dark:text-gray-300">
+                  {t('metrics.experience.label')}
+                </div>
               </motion.div>
               <motion.div
                 initial={{opacity: 0, y: 20}}
@@ -164,8 +168,12 @@ export default function Hero() {
                 transition={{delay: 1.2}}
                 className="bg-white/90 dark:bg-gray-900/90 backdrop-blur-sm p-6 rounded-2xl shadow-xl"
               >
-                <div className="text-4xl font-bold text-blue-600 dark:text-blue-400">3K+</div>
-                <div className="text-sm text-gray-600 dark:text-gray-300">Projects Completed</div>
+                <div className="text-4xl font-bold text-blue-600 dark:text-blue-400">
+                  {t('metrics.projects.value')}
+                </div>
+                <div className="text-sm text-gray-600 dark:text-gray-300">
+                  {t('metrics.projects.label')}
+                </div>
               </motion.div>
             </div>
           </div>
