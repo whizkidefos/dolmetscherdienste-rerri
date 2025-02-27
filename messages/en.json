@@ -37,29 +37,37 @@
     "title": "Our Services",
     "subtitle": "Professional translation and interpretation services in German, English, and Croatian",
     "items": {
-      "document": {
-        "title": "Document Translation",
-        "description": "Professional translation of documents, certificates, and official papers with certified accuracy."
+      "legal": {
+        "title": "Legal Documents",
+        "description": "Contracts, agreements, wills, patents, court transcripts, sales  agreements."
       },
-      "interpretation": {
-        "title": "Interpretation Services",
-        "description": "Real-time interpretation for meetings, conferences, and business negotiations."
+      "document": {
+        "title": "Business Documents",
+        "description": "Reports, proposals, presentations, marketing materials."
       },
       "technical": {
-        "title": "Technical Translation",
-        "description": "Specialized translation of technical documents, manuals, and specifications."
+        "title": "Technical Documents",
+        "description": "User manuals, instruction guides, technical specifications."
       },
-      "business": {
-        "title": "Business Translation",
-        "description": "Translation services for business documents, contracts, and corporate communications."
+      "educational": {
+        "title": "Educational Materials",
+        "description": "Academic papers, textbooks, certifications, diplomas."
       },
-      "legal": {
-        "title": "Legal Translation",
-        "description": "Expert translation of legal documents with attention to legal terminology and requirements."
+      "medical": {
+        "title": "Medical Documents",
+        "description": "Patient records, medical research, prescriptions, clinical trial results."
       },
-      "cultural": {
-        "title": "Cultural Consulting",
-        "description": "Cultural adaptation and consulting services for effective cross-cultural communication."
+      "financial": {
+        "title": "Financial Documents",
+        "description": "Bank statements, tax filings, investment reports."
+      },
+      "personal": {
+        "title": "Personal Documents",
+        "description": "Birth certificates, marriage certificates, divorce certificates, letters, resumes, parental care certificates, fatherhood certificates and more."
+      },
+      "a2t": {
+        "title": "Audio to Text Transcription (A2T)",
+        "description": "Certified Translation: Ensures legal acceptance and may require a sworn translator."
       }
     }
   },

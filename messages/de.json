@@ -37,29 +37,37 @@
     "title": "Unsere Dienstleistungen",
     "subtitle": "Professionelle Übersetzungs- und Dolmetscherdienste in Deutsch, Englisch und Kroatisch",
     "items": {
-      "document": {
-        "title": "Dokumentenübersetzung",
-        "description": "Professionelle Übersetzung von Dokumenten, Zertifikaten und offiziellen Papieren mit zertifizierter Genauigkeit."
+      "legal": {
+        "title": "Juristische Dokumente",
+        "description": "Verträge, Vereinbarungen, Testamente, Patente, Gerichtsprotokolle, Kaufverträge, Vereinbarungen."
       },
-      "interpretation": {
-        "title": "Dolmetscherdienste",
-        "description": "Echtzeitdolmetschen für Meetings, Konferenzen und Geschäftsverhandlungen."
+      "document": {
+        "title": "Geschäftliche Dokumente",
+        "description": "Berichte, Angebote, Präsentationen, Marketingmaterialien."
       },
       "technical": {
-        "title": "Technische Übersetzung",
-        "description": "Spezialisierte Übersetzung von technischen Dokumenten, Handbüchern und Spezifikationen."
+        "title": "Technische Dokumente",
+        "description": "Benutzerhandbücher, Bedienungsanleitungen, technische Spezifikationen."
       },
-      "business": {
-        "title": "Geschäftsübersetzung",
+      "educational": {
+        "title": "Bildungsmaterialien",
         "description": "Übersetzungsdienste für Geschäftsdokumente, Verträge und Unternehmenskommunikation."
       },
-      "legal": {
-        "title": "Juristische Übersetzung",
-        "description": "Beglaubigte Übersetzung von Rechtsdokumenten, Verträgen und Gerichtspapieren."
+      "medical": {
+        "title": "Medizinische Dokumente",
+        "description": "Patientenakten, medizinische Untersuchungen, Rezepte, Ergebnisse klinischer Studien."
       },
-      "cultural": {
-        "title": "Kulturberatung",
-        "description": "Expertenberatung zu kulturellen Nuancen und Geschäftsetikette für internationale Kommunikation."
+      "financial": {
+        "title": "Finanzielle Dokumente",
+        "description": "Kontoauszüge, Steuererklärungen, Investitionsberichte."
+      },
+      "personal": {
+        "title": "Persönliche Dokumente",
+        "description": "Geburtsurkunden, Heiratsurkunden, Scheidungsurkunden, Briefe, Lebensläufe, Bescheinigungen über die elterliche Sorge, Vaterschaftsurkunden und mehr."
+      },
+      "a2t": {
+        "title": "Audio-zu-Text-Transkription (A2T)",
+        "description": "Beglaubigte Übersetzung: Gewährleistet die rechtliche Anerkennung und kann einen vereidigten Übersetzer erfordern."
       }
     }
   },

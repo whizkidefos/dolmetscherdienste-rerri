@@ -2,26 +2,30 @@
 
 import {useTranslations} from 'next-intl';
 import {motion} from 'framer-motion';
-import {FileText, Mic, BookOpen, Building2, Scale, Users} from 'lucide-react';
+import {FileText, Mic, BookOpen, Building2, Scale, Users, Banknote, Syringe} from 'lucide-react';
 import SectionTitle from '@/components/ui/SectionTitle';
 import Image from 'next/image';
 
 const serviceImages = {
-  document: 'https://images.unsplash.com/photo-1554475901-4538ddfbccc2?q=80&w=1000',
-  interpretation: 'https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?q=80&w=1000',
+  legal: 'https://images.unsplash.com/photo-1554475901-4538ddfbccc2?q=80&w=1000',
+  document: 'https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?q=80&w=1000',
   technical: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=1000',
-  business: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=1000',
-  legal: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=1000',
-  cultural: 'https://images.unsplash.com/photo-1511632765486-a01980e01a18?q=80&w=1000',
+  educational: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=1000',
+  medical: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=1000',
+  financial: 'https://images.unsplash.com/photo-1511632765486-a01980e01a18?q=80&w=1000',
+  personal: 'https://images.unsplash.com/photo-1554475901-4538ddfbccc2?q=80&w=1000',
+  a2t: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=1000',
 } as const;
 
 const serviceIcons = {
-  document: FileText,
-  interpretation: Mic,
-  technical: BookOpen,
-  business: Building2,
   legal: Scale,
-  cultural: Users,
+  document: Building2,
+  technical: FileText,
+  educational: BookOpen,
+  medical: Syringe,
+  financial: Banknote,
+  personal: Users,
+  a2t: Mic,
 } as const;
 
 export default function ServicesPage() {

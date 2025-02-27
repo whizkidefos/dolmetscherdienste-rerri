@@ -2,16 +2,18 @@
 
 import {useTranslations} from 'next-intl';
 import {motion} from 'framer-motion';
-import {FileText, Mic, BookOpen, Building2, Scale, Users} from 'lucide-react';
+import {FileText, Mic, BookOpen, Building2, Scale, Users, Medal, Banknote, Syringe} from 'lucide-react';
 import SectionTitle from '@/components/ui/SectionTitle';
 
 const serviceIcons = {
-  document: FileText,
-  interpretation: Mic,
-  technical: BookOpen,
-  business: Building2,
   legal: Scale,
-  cultural: Users,
+  document: Building2,
+  technical: FileText,
+  educational: BookOpen,
+  medical: Syringe,
+  financial: Banknote,
+  personal: Users,
+  a2t: Mic,
 } as const;
 
 export default function Services() {
