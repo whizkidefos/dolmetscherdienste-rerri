@@ -62,7 +62,7 @@ export default function Header() {
 
         <nav className="flex items-center justify-between py-4">
           <Link href={`/${locale}`} className="text-xl font-bold text-gray-900 dark:text-white">
-            Dolmetscherdienste Rerri
+            <span className='text-blue-600 dark:text-blue-400'>Dolmetscherdienste </span>Rerri
           </Link>
 
           <div className="hidden md:flex items-center space-x-8">
