@@ -35,7 +35,7 @@
   },
   "services": {
     "title": "Unsere Dienstleistungen",
-    "subtitle": "Professionelle Übersetzungs- und Dolmetscherdienste in Deutsch, Englisch und Kroatisch",
+    "subtitle": "Wir haben es uns zur Aufgabe gemacht, sprachliche Lücken in einer globalisierten Welt zu schließen. Unser Dolmetschervermittlungsdienst bringt Sie mit hochqualifizierten Fachleuten zusammen, die auf moderne und seltene Sprachen spezialisiert sind, um eine präzise und kulturell sensible Kommunikation in jedem Umfeld zu gewährleisten.",
     "items": {
       "legal": {
         "title": "Juristische Dokumente",
@@ -73,18 +73,29 @@
   },
   "about": {
     "title": "Über uns",
-    "subtitle": "Erfahren Sie mehr über unsere Geschichte und Mission",
+    "subtitle": "Ihr vertrauensvoller Dolmetscher",
+    "vision": "Unsere Vision",
+    "description": "Wir sind mit der Bereitstellung hochwertiger Translation und Interpretationsdienste für unsere Kunden bestrebt, um sicherzustellen, dass die genauen und kulturell sensible Kommunikation in jedem Umfeld gewährleistet wird.",
     "mission": {
-      "title": "Unsere Mission",
-      "description": "Wir setzen uns dafür ein, sprachliche und kulturelle Barrieren zu überwinden und Menschen und Unternehmen dabei zu helfen, effektiv zu kommunizieren."
+      "title": "Spezialisierung",
+      "items": {
+        "legal": "Recht: Justiz, zugehörige Ministerien, Abteilungen und Behörden",
+        "technical": "Strafverfolgungsbehörden und verwandte Bereiche der Regierung",
+        "medical": "Medizinische und paramedizinische Einrichtungen",
+        "immigration": "Einwanderung: Einwanderungsbehörden und nichtstaatliche Agenturen/Institutionen",
+        "educational": "Bildung: Staatliche und nichtstaatliche Stellen/Einrichtungen",
+        "parental": "Erziehungsberatung: Beratung über die Rechte von Minderjährigen und elterliche Pflichten",
+        "interpreter": "Beratung zwischen Anwalt und Klient: Dolmetscherdienste Justizvollzugsanstalten und Gemeindedolmetschen"
+      }
     },
     "expertise": {
-      "title": "Unsere Expertise",
+      "title": "Warum wählen Sie uns?",
       "items": {
-        "legal": "Spezialisierung auf juristische Übersetzungen und Beglaubigungen",
-        "technical": "Umfassende Erfahrung in technischen Übersetzungen",
-        "business": "Professionelle Geschäftsübersetzungen",
-        "cultural": "Kulturelle Beratung und interkulturelle Kommunikation"
+        "remote": "Remote-Dienste: Telefondolmetschen und Videodolmetschen für weltweite Erreichbarkeit.",
+        "global": "Globales Netzwerk: Zugang zu Dolmetschern aus der ganzen Welt.",
+        "language": "Abdeckung seltener Sprachen: Überbrückung von Lücken für unterversorgte Sprachgemeinschaften.",
+        "flexible": "Flexibilität: Persönliche, telefonische oder über Videoplattformen verfügbare Dienste.",
+        "interpreter": "24/7-Verfügbarkeit: Unterstützung für dringende und zeitkritische Bedürfnisse."
       }
     }
   },

@@ -7,14 +7,29 @@ import SectionTitle from '@/components/ui/SectionTitle';
 import Image from 'next/image';
 
 const serviceImages = {
-  legal: 'https://images.unsplash.com/photo-1554475901-4538ddfbccc2?q=80&w=1000',
-  document: 'https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?q=80&w=1000',
-  technical: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=1000',
-  educational: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=1000',
-  medical: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=1000',
-  financial: 'https://images.unsplash.com/photo-1511632765486-a01980e01a18?q=80&w=1000',
-  personal: 'https://images.unsplash.com/photo-1554475901-4538ddfbccc2?q=80&w=1000',
-  a2t: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=1000',
+  // Legal translation - Image of law books and gavel
+  legal: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=2070',
+  
+  // Document translation - Image of business documents and contracts
+  document: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=2072',
+  
+  // Technical translation - Image of technical blueprints or engineering documents
+  technical: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2070',
+  
+  // Educational translation - Image of classroom or educational setting
+  educational: 'https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?q=80&w=2070',
+  
+  // Medical translation - Image of medical documents or healthcare setting
+  medical: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=2070',
+  
+  // Financial translation - Image of financial documents or business setting
+  financial: 'https://images.unsplash.com/photo-1554224154-26032ffc0d07?q=80&w=2072',
+  
+  // Personal document translation - Image of passport or personal documents
+  personal: 'https://images.unsplash.com/photo-1551836022-deb4988cc6c0?q=80&w=2070',
+  
+  // Audio to text translation - Image of audio equipment or recording studio
+  a2t: 'https://images.unsplash.com/photo-1590602847861-f357a9332bbc?q=80&w=2070',
 } as const;
 
 const serviceIcons = {
@@ -65,13 +80,14 @@ export default function ServicesPage() {
                 </div>
               </div>
               <div className={index % 2 === 0 ? '' : 'lg:order-1'}>
-                <div className="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden shadow-lg">
+                <div className="relative h-[400px] rounded-lg overflow-hidden shadow-lg">
                   <Image
                     src={serviceImages[key as keyof typeof serviceImages]}
                     alt={t(`items.${key}.title`)}
-                    width={1000}
-                    height={600}
-                    className="w-full h-full object-cover"
+                    fill
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                    className="object-cover"
+                    priority={index < 2} // Load first two images immediately
                   />
                 </div>
               </div>

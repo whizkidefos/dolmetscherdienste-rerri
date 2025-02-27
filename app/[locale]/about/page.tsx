@@ -8,11 +8,22 @@ import SectionTitle from '@/components/ui/SectionTitle';
 export default function AboutPage() {
   const t = useTranslations('about');
 
-  const expertiseItems = [
+  const missionItems = [
     'legal',
     'technical',
-    'business',
-    'cultural'
+    'medical',
+    'immigration',
+    'educational',
+    'parental',
+    'interpreter'
+  ];
+
+  const expertiseItems = [
+    'remote',
+    'global',
+    'language',
+    'flexible',
+    'interpreter'
   ];
 
   return (
@@ -46,10 +57,10 @@ export default function AboutPage() {
           >
             <div className="prose prose-lg dark:prose-invert">
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
-                {t('mission.title')}
+                {t('vision')}
               </h3>
               <p className="text-gray-600 dark:text-gray-300">
-                {t('mission.description')}
+                {t('description')}
               </p>
             </div>
           </motion.div>
@@ -67,9 +78,17 @@ export default function AboutPage() {
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
                 {t('mission.title')}
               </h3>
-              <p className="text-gray-600 dark:text-gray-300">
-                {t('mission.description')}
-              </p>
+              <ul className="space-y-4">
+                {missionItems.map((item) => (
+                  <li
+                    key={item}
+                    className="flex items-start text-gray-600 dark:text-gray-300"
+                  >
+                    <span className="inline-block w-2 h-2 bg-blue-600 dark:bg-blue-400 rounded-full mt-2 mr-3" />
+                    {t(`mission.items.${item}`)}
+                  </li>
+                ))}
+              </ul>
             </motion.div>
 
             <motion.div

@@ -35,7 +35,7 @@
   },
   "services": {
     "title": "Our Services",
-    "subtitle": "Professional translation and interpretation services in German, English, and Croatian",
+    "subtitle": "Bridging language gaps in a globalized world is our mission. Our interpreter referral service connects you with highly skilled professionals -including native speakers - specializing in modern and rare languages, ensuring accurate and culturally sensitive communication in any setting.",
     "items": {
       "legal": {
         "title": "Legal Documents",
@@ -74,17 +74,28 @@
   "about": {
     "title": "About Us",
     "subtitle": "Your Trusted Translation Partner",
+    "vision": "Our Vision",
+    "description": "We are dedicated to providing high-quality translation and interpretation services to our clients, ensuring accurate and culturally sensitive communication in any setting.",
     "mission": {
-      "title": "Our Mission",
-      "description": "We are dedicated to breaking down language barriers and facilitating clear communication across cultures. With years of experience in professional translation and interpretation, we ensure accuracy, cultural sensitivity, and timely delivery of all our services."
+      "title": "Specialization",
+      "items": {
+        "legal": "The judiciary, related ministries, departments and agencies",
+        "technical": "Law enforcement agencies and related arms of government",
+        "medical": "Medical/Paramedical agencies",
+        "immigration": "Immigration and non-governmental agencies/institutions",
+        "educational": "Governmental and non-governmental agencies/ instituions",
+        "parental": "Counselling on the rights of minors und parental obligations",
+        "interpreter": "Interpreter services at correctional facilities and community interpretation"
+      }
     },
     "expertise": {
-      "title": "Our Expertise",
+      "title": "Why choose us?",
       "items": {
-        "legal": "Specialized in legal document translation and court interpretation",
-        "technical": "Expert technical translation for various industries",
-        "business": "Professional business communication and document translation",
-        "cultural": "Cultural consulting and adaptation services"
+        "remote": "Remote Services: Over-the-phone and video remote interpretation for global accessibility.",
+        "global": "Global Network: Access interpreters from around the world.",
+        "language": "Rare Language Coverage: Bridging gaps for underserved linguistic communities.",
+        "flexible": "Flexibility: Services available in-person, over the phone, or via video platforms.",
+        "interpreter": "24/7 Availability: Support for urgent and time-sensitive needs."
       }
     }
   },
