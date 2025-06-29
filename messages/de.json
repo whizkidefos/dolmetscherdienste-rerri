@@ -55,7 +55,7 @@
       },
       "medical": {
         "title": "Medizinische Dokumente",
-        "description": "Patientenakten, medizinische Untersuchungen, Rezepte, Ergebnisse klinischer Studien."
+        "description": "Patientenakten, medizinische Studien, Rezepte, klinische Studienergebnisse."
       },
       "financial": {
         "title": "Finanzielle Dokumente",
@@ -63,11 +63,11 @@
       },
       "personal": {
         "title": "Persönliche Dokumente",
-        "description": "Geburtsurkunden, Heiratsurkunden, Scheidungsurkunden, Briefe, Lebensläufe, Bescheinigungen über die elterliche Sorge, Vaterschaftsurkunden und mehr."
+        "description": "Geburts-, Heirats- und Scheidungsurkunden, Briefe, Lebensläufe, Sorgeerklärungen, Vaterschaftsnachweise u.v.m."
       },
       "a2t": {
         "title": "Audio-zu-Text-Transkription (A2T)",
-        "description": "Beglaubigte Übersetzung: Gewährleistet die rechtliche Anerkennung und kann einen vereidigten Übersetzer erfordern."
+        "description": "Beglaubigte Übersetzungen: Rechtlich anerkannte Übersetzungen durch vereidigte Übersetzer."
       }
     }
   },
@@ -75,7 +75,7 @@
     "title": "Über uns",
     "subtitle": "Ihr vertrauensvoller Dolmetscher",
     "vision": "Unsere Vision",
-    "description": "Wir sind mit der Bereitstellung hochwertiger Translation und Interpretationsdienste für unsere Kunden bestrebt, um sicherzustellen, dass die genauen und kulturell sensible Kommunikation in jedem Umfeld gewährleistet wird.",
+    "description": "Wir sind mit der Bereitstellung hochwertiger Translation und Interpretationsdienste für unsere Kunden bestrebt, um sicherzustellen, dass die genauen und kulturell sensible Kommunikation in jedem Umfeld gewährleistet wird. Verfügbare Sprachen u. a. Amharisch, Baganda, Bambara, Chamba, Edo/Bini, Ewe, Ful, Ga, Hausa, Igbo, Ika, Kirundi, Krio, Kurdisch (inkl. Kurmandschi & Sorani), Lingala, Luganda, Mandinka, Mongolisch, Manou, Oromo, Pulaar, Arabisch, Saho, Somali, Soninke, Songhai, Susu, Tigrinya, Türkisch, Urdu, Wolof, Yoruba, Zarma, Zulu – und viele weitere.",
     "mission": {
       "title": "Spezialisierung",
       "items": {
@@ -85,19 +85,27 @@
         "immigration": "Einwanderung: Einwanderungsbehörden und nichtstaatliche Agenturen/Institutionen",
         "educational": "Bildung: Staatliche und nichtstaatliche Stellen/Einrichtungen",
         "parental": "Erziehungsberatung: Beratung über die Rechte von Minderjährigen und elterliche Pflichten",
-        "interpreter": "Beratung zwischen Anwalt und Klient: Dolmetscherdienste Justizvollzugsanstalten und Gemeindedolmetschen"
+        "interpreter": "Beratung zwischen Anwalt und Klient: Dolmetscherdienste Justizvollzugsanstalten und Gemeindedolmetschen",
+        "community": "Rechtsberatung: Dolmetschen bei Anwaltsterminen",
+        "remote": "Justizvollzug & Gemeinde: Dolmetschen in Justizvollzugsanstalten und im sozialen Umfeld"
       }
     },
     "expertise": {
       "title": "Warum wählen Sie uns?",
       "items": {
         "remote": "Remote-Dienste: Telefondolmetschen und Videodolmetschen für weltweite Erreichbarkeit.",
-        "global": "Globales Netzwerk: Zugang zu Dolmetschern aus der ganzen Welt.",
         "language": "Abdeckung seltener Sprachen: Überbrückung von Lücken für unterversorgte Sprachgemeinschaften.",
         "flexible": "Flexibilität: Persönliche, telefonische oder über Videoplattformen verfügbare Dienste.",
-        "interpreter": "24/7-Verfügbarkeit: Unterstützung für dringende und zeitkritische Bedürfnisse."
+        "interpreter": "24/7-Verfügbarkeit: Unterstützung für dringende und zeitkritische Bedürfnisse.",
+        "business": "Wirtschaft & Unternehmen: Verhandlungen, Messen, Präsentationen",
+        "legal": "Recht & Verwaltung: Gerichtstermine, Befragungen, Bewährungsanhörungen, Haftbesuche",
+        "health": "Gesundheitswesen: Arztgespräche, Untersuchungen, medizinische Tagungen",
+        "ngo": "Nichtregierungsorganisationen (NGOs): Humanitäre Einsätze, Flüchtlingshilfe, Gemeindearbeit",
+        "social": "Sozial- & Jugendhilfe: Beratung, Familienunterstützung, Jugendprogramme"
       }
-    }
+    },
+    "prompt": "",
+    "promptDescription": "Benötigen Sie einen vertrauenswürdigen Dolmetscher für moderne oder seltene Sprachen?\nKontaktieren Sie uns – wir finden die passende Lösung für Ihre Anforderungen: Ob Geschäftstermin, Gerichtsverfahren, Unterstützungsleistungen, Befragungen oder Hilfseinsätze – Ihre Botschaft wird klar und korrekt übermittelt."
   },
   "contact": {
     "title": "Kontakt",
@@ -120,7 +128,7 @@
       "friday": "Freitag",
       "saturday": "Samstag",
       "sunday": "Sonntag",
-      "weekendHours": "Geschlossen am Wochenende"
+      "weekendHours": "Am Wochenende geöffnet (9:00 - 17:00 Uhr)"
     },
     "weekendHours": {
       "saturday": "Samstag",

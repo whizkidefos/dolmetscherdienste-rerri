@@ -115,6 +115,14 @@ export default function AboutPage() {
             </motion.div>
           </div>
         </div>
+        <div className="prose prose-lg dark:prose-invert mt-16">
+          {/* <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
+            {t('prompt')}
+          </h3> */}
+          <p className="text-gray-600 dark:text-gray-300">
+            {t('promptDescription')}
+          </p>
+        </div>
       </div>
     </div>
   );

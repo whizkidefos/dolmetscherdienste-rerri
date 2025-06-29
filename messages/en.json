@@ -35,11 +35,11 @@
   },
   "services": {
     "title": "Our Services",
-    "subtitle": "Bridging language gaps in a globalized world is our mission. Our interpreter referral service connects you with highly skilled professionals -including native speakers - specializing in modern and rare languages, ensuring accurate and culturally sensitive communication in any setting.",
+    "subtitle": "We connect you with professional interpreters — many of whom are native speakers — for both common and rare languages. We ensure precise, culturally sensitive interpretation in any context.",
     "items": {
       "legal": {
         "title": "Legal Documents",
-        "description": "Contracts, agreements, wills, patents, court transcripts, sales  agreements."
+        "description": "Contracts, agreements, wills, patents, court transcripts, sales documents."
       },
       "document": {
         "title": "Business Documents",
@@ -55,19 +55,19 @@
       },
       "medical": {
         "title": "Medical Documents",
-        "description": "Patient records, medical research, prescriptions, clinical trial results."
+        "description": "Patient records, research papers, prescriptions, clinical trials."
       },
       "financial": {
         "title": "Financial Documents",
-        "description": "Bank statements, tax filings, investment reports."
+        "description": "Bank statements, tax returns, investment reports."
       },
       "personal": {
         "title": "Personal Documents",
-        "description": "Birth certificates, marriage certificates, divorce certificates, letters, resumes, parental care certificates, fatherhood certificates and more."
+        "description": "Birth/marriage/divorce certificates, letters, resumes, parental/fatherhood documents."
       },
       "a2t": {
         "title": "Audio to Text Transcription (A2T)",
-        "description": "Certified Translation: Ensures legal acceptance and may require a sworn translator."
+        "description": "Legally recognized via sworn translators."
       }
     }
   },
@@ -75,29 +75,36 @@
     "title": "About Us",
     "subtitle": "Your Trusted Translation Partner",
     "vision": "Our Vision",
-    "description": "We are dedicated to providing high-quality translation and interpretation services to our clients, ensuring accurate and culturally sensitive communication in any setting.",
+    "description": "We are dedicated to providing high-quality translation and interpretation services to our clients, ensuring accurate and culturally sensitive communication in any setting. Languages include: Amharic, Baganda, Bambara, Chamba, Edo/Bini, Ewe, Fula, Ga, Hausa, Igbo, Ika, Kirundi, Krio, Kurdish (including Kurmanji & Sorani), Lingala, Luganda, Mandinka, Mongolian, Manou, Oromo, Pulaar, Arabic, Saho, Somali, Soninke, Songhai, Susu, Tigrinya, Turkish, Urdu, Wolof, Yoruba, Zarma, Zulu—and more.",
     "mission": {
-      "title": "Specialization",
+      "title": "Specialist Sectors",
       "items": {
-        "legal": "The judiciary, related ministries, departments and agencies",
-        "technical": "Law enforcement agencies and related arms of government",
-        "medical": "Medical/Paramedical agencies",
-        "immigration": "Immigration and non-governmental agencies/institutions",
-        "educational": "Governmental and non-governmental agencies/ instituions",
-        "parental": "Counselling on the rights of minors und parental obligations",
-        "interpreter": "Interpreter services at correctional facilities and community interpretation"
+        "legal": "Legal: Courts, ministries, law enforcement",
+        "medical": "Medical/Paramedical: Hospitals, clinics",
+        "immigration": "Immigration: Government & NGOs",
+        "educational": "Educational: Schools & institutions",
+        "parental": "Parental/Family Services: Counseling, parental rights",
+        "interpreter": "Legal Aid: Attorney-client consultations",
+        "community": "Correctional & Community: Prison interpretation",
+        "remote": "Remote Services: OPI & VRI for global access"
       }
     },
     "expertise": {
       "title": "Why choose us?",
       "items": {
-        "remote": "Remote Services: Over-the-phone and video remote interpretation for global accessibility.",
-        "global": "Global Network: Access interpreters from around the world.",
-        "language": "Rare Language Coverage: Bridging gaps for underserved linguistic communities.",
-        "flexible": "Flexibility: Services available in-person, over the phone, or via video platforms.",
-        "interpreter": "24/7 Availability: Support for urgent and time-sensitive needs."
+        "remote": "Global Network of vetted professionals",
+        "language": "Rare-language expertise",
+        "flexible": "Flexible delivery: In-person, phone, video",
+        "interpreter": "24/7 availability for urgent needs",
+        "business": "Business/Corporate: Negotiations, trade shows",
+        "legal": "Legal/Government: Hearings, interviews, interrogations, probation reviews, prison contacts",
+        "health": "Healthcare: Consults, exams, conferences",
+        "ngo": "NGOs: Humanitarian missions, refugee support, outreach",
+        "social": "Social & Youth Welfare: Counseling, family support, youth programs"
       }
-    }
+    },
+    "prompt": "",
+    "promptDescription": "Need an interpreter? Whether for court, medical appointments, interrogations, or humanitarian efforts—we’ll help you communicate clearly and accurately."
   },
   "contact": {
     "title": "Contact Us",
@@ -120,7 +127,7 @@
       "friday": "Friday",
       "saturday": "Saturday",
       "sunday": "Sunday",
-      "weekendHours": "Closed on Weekends"
+      "weekendHours": "Open on weekends (9:00 AM - 5:00 PM)"
     },
     "weekendHours": {
       "saturday": "Saturday",
