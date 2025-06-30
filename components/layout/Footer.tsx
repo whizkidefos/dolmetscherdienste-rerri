@@ -70,6 +70,9 @@ export default function Footer() {
         <p className="mt-8 text-center text-base text-gray-500 dark:text-gray-400">
           &copy; {new Date().getFullYear()} {t('copyright')}
         </p>
+        <p className="mt-2 text-center text-xs text-gray-400 dark:text-gray-500">
+          {t('swornInterpreter')}
+        </p>
       </div>
     </footer>
   );

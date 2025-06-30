@@ -4,10 +4,11 @@ import {useTranslations} from 'next-intl';
 import {motion} from 'framer-motion';
 import SectionTitle from '@/components/ui/SectionTitle';
 import ContactForm from '@/components/ui/ContactForm';
-import {Phone, Mail, MapPin, Clock} from 'lucide-react';
+import {Phone, Mail, MapPin, Clock, Printer} from 'lucide-react';
 
 export default function ContactPage() {
   const t = useTranslations('contact');
+  const legalT = useTranslations('legal');
 
   return (
     <div className="bg-white dark:bg-gray-900 transition-colors">
@@ -78,6 +79,22 @@ export default function ContactPage() {
               <div className="flex items-start space-x-4">
                 <div className="flex-shrink-0">
                   <div className="flex items-center justify-center h-12 w-12 rounded-lg bg-blue-50 dark:bg-blue-900/30">
+                    <Printer className="h-6 w-6 text-blue-600 dark:text-blue-400" />
+                  </div>
+                </div>
+                <div>
+                  <h3 className="text-lg font-medium text-gray-900 dark:text-white">
+                    {legalT('contact.fax')}
+                  </h3>
+                  <p className="mt-2 text-base text-gray-600 dark:text-gray-300">
+                    {legalT('contact.faxNumber')}
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-start space-x-4">
+                <div className="flex-shrink-0">
+                  <div className="flex items-center justify-center h-12 w-12 rounded-lg bg-blue-50 dark:bg-blue-900/30">
                     <MapPin className="h-6 w-6 text-blue-600 dark:text-blue-400" />
                   </div>
                 </div>
@@ -104,9 +121,7 @@ export default function ContactPage() {
                     {t('hours')}
                   </h3>
                   <p className="mt-2 text-base text-gray-600 dark:text-gray-300">
-                    {t('openingHours.monday')} - {t('openingHours.friday')}
-                    <br />
-                   {t('openingHours.weekendHours')}
+                    {t('openingHours')}
                   </p>
                 </div>
               </div>

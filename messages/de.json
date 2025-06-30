@@ -124,16 +124,7 @@
     "address": "Adresse",
     "phone": "Telefon",
     "hours": "Oeffnungszeiten",
-    "openingHours": {
-      "monday": "Montag",
-      "tuesday": "Dienstag",
-      "wednesday": "Mittwoch",
-      "thursday": "Donnerstag",
-      "friday": "Freitag",
-      "saturday": "Samstag",
-      "sunday": "Sonntag",
-      "weekendHours": "Am Wochenende geöffnet (9:00 - 17:00 Uhr)"
-    },
+    "openingHours": "24/7",
     "weekendHours": {
       "saturday": "Samstag",
       "sunday": "Sonntag"
@@ -204,7 +195,8 @@
     },
     "privacy": "Datenschutz",
     "terms": "AGB",
-    "copyright": "Dolmetscherdienste Rerri. Alle Rechte vorbehalten."
+    "copyright": "Dolmetscherdienste Rerri. Alle Rechte vorbehalten.",
+    "swornInterpreter": "Von Präsidentin des OLG Hamm beeidigter und ermächtigter Dolmetscher und Übersetzer."
   },
   "legal": {
     "title": "Impressum",

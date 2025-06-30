@@ -123,16 +123,7 @@
     "address": "Address",
     "phone": "Phone Number",
     "hours": "Hours of Operation",
-    "openingHours": {
-      "monday": "Monday",
-      "tuesday": "Tuesday",
-      "wednesday": "Wednesday",
-      "thursday": "Thursday",
-      "friday": "Friday",
-      "saturday": "Saturday",
-      "sunday": "Sunday",
-      "weekendHours": "Open on weekends (9:00 AM - 5:00 PM)"
-    },
+    "openingHours": "Open 24/7",
     "weekendHours": {
       "saturday": "Saturday",
       "sunday": "Sunday"
@@ -202,7 +193,8 @@
     },
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
-    "copyright": " Dolmetscherdienste Rerri. All rights reserved."
+    "copyright": " Dolmetscherdienste Rerri. All rights reserved.",
+    "swornInterpreter": "Sworn and publicly appointed interpreter and translator by the president of the Higher Regional Court in Hamm, Germany."
   },
   "legal": {
     "title": "Legal Notice",
@@ -211,8 +203,8 @@
       "title": "Responsible Party",
       "name": "Joseph Rerri",
       "role": "(Interpreter and Translator)",
-      "address": "Leverkusener Straße 27",
-      "city": "45772 Marl, Germany"
+      "address": "Heyerhoffstraße 38",
+      "city": "45770 Marl, Germany"
     },
     "contact": {
       "title": "Contact",
