@@ -67,7 +67,11 @@
       },
       "a2t": {
         "title": "Audio-zu-Text-Transkription (A2T)",
-        "description": "Beglaubigte Übersetzungen: Rechtlich anerkannte Übersetzungen durch vereidigte Übersetzer."
+        "description": "Audio-zu-Text-Transkription (A2T)"
+      },
+      "certified": {
+        "title": "Beglaubigte Übersetzungen",
+        "description": "Rechtlich anerkannte Übersetzungen durch vereidigte Übersetzer"
       }
     }
   },

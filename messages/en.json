@@ -67,6 +67,10 @@
       },
       "a2t": {
         "title": "Audio to Text Transcription (A2T)",
+        "description": "Audio to Text Transcription (A2T)"
+      },
+      "certified": {
+        "title": "Certified Translation",
         "description": "Legally recognized via sworn translators."
       }
     }
