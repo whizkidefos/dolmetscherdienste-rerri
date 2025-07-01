@@ -49,7 +49,7 @@ export default function Header() {
             <ThemeSwitcher />
           </div>
           <div className="hidden md:flex items-center space-x-6 text-sm">
-            <a href="tel:+4917624022765" className="flex items-center text-gray-700 hover:text-blue-600 dark:text-gray-200 dark:hover:text-blue-400">
+            <a href="tel:+491737040331" className="flex items-center text-gray-700 hover:text-blue-600 dark:text-gray-200 dark:hover:text-blue-400">
               <Phone className="h-4 w-4 mr-2" />
               <span>+49 173 70 40 331</span>
             </a>
@@ -102,9 +102,9 @@ export default function Header() {
                   </div>
                 ))}
                 <div className="px-2 pt-4 space-y-4 border-t border-gray-200 dark:border-gray-700">
-                  <a href="tel:+4917624022765" className="flex items-center text-gray-700 hover:text-blue-600 dark:text-gray-200 dark:hover:text-blue-400">
+                  <a href="tel:+491737040331" className="flex items-center text-gray-700 hover:text-blue-600 dark:text-gray-200 dark:hover:text-blue-400">
                     <Phone className="h-4 w-4 mr-2" />
-                    <span>+49 176 24022765</span>
+                    <span>+49 173 70 40 331</span>
                   </a>
                   <a href="mailto:info@dolmetscherdienste-rerri.de" className="flex items-center text-gray-700 hover:text-blue-600 dark:text-gray-200 dark:hover:text-blue-400">
                     <Mail className="h-4 w-4 mr-2" />
