@@ -15,15 +15,22 @@ export default function AboutPage() {
     'immigration',
     'educational',
     'parental',
-    'interpreter'
+    'interpreter',
+    'community',
+    'remote'
   ];
 
   const expertiseItems = [
     'remote',
-    'global',
     'language',
     'flexible',
-    'interpreter'
+    'global',
+    'business',
+    'legal',
+    'health',
+    'ngo',
+    'social',
+    'interpreter',
   ];
 
   return (
@@ -102,9 +109,9 @@ export default function AboutPage() {
                 {t('expertise.title')}
               </h3>
               <ul className="space-y-4">
-                {expertiseItems.map((item) => (
+                {expertiseItems.map((item, index) => (
                   <li
-                    key={item}
+                    key={index}
                     className="flex items-start text-gray-600 dark:text-gray-300"
                   >
                     <span className="inline-block w-2 h-2 bg-blue-600 dark:bg-blue-400 rounded-full mt-2 mr-3" />

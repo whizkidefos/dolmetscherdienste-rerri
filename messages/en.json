@@ -84,6 +84,7 @@
       "title": "Specialist Sectors",
       "items": {
         "legal": "Legal: Courts, ministries, law enforcement",
+        "technical": "Technical: User manuals, instruction guides, technical specifications",
         "medical": "Medical/Paramedical: Hospitals, clinics",
         "immigration": "Immigration: Government & NGOs",
         "educational": "Educational: Schools & institutions",
@@ -99,6 +100,7 @@
         "remote": "Global Network of vetted professionals",
         "language": "Rare-language expertise",
         "flexible": "Flexible delivery: In-person, phone, video",
+        "global": "Global Network of vetted professionals",
         "interpreter": "24/7 availability for urgent needs",
         "business": "Business/Corporate: Negotiations, trade shows",
         "legal": "Legal/Government: Hearings, interviews, interrogations, probation reviews, prison contacts",
@@ -218,8 +220,8 @@
     "editorial": {
       "title": "Editorial Responsibility",
       "name": "Joseph Rerri",
-      "address": "Leverkusener Straße 27",
-      "city": "45772 Marl, Germany"
+      "address": "Heyerhoffstraße 38",
+      "city": "45770 Marl, Germany"
     },
     "euDispute": {
       "title": "EU Dispute Resolution",

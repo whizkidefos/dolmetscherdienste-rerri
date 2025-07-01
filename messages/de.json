@@ -84,7 +84,7 @@
       "title": "Spezialisierung",
       "items": {
         "legal": "Recht: Justiz, zugehörige Ministerien, Abteilungen und Behörden",
-        "technical": "Strafverfolgungsbehörden und verwandte Bereiche der Regierung",
+        "technical": "Technische Dokumente: Bedienungsanleitungen, Gebrauchsanweisungen, technische Spezifikationen",
         "medical": "Medizinische und paramedizinische Einrichtungen",
         "immigration": "Einwanderung: Einwanderungsbehörden und nichtstaatliche Agenturen/Institutionen",
         "educational": "Bildung: Staatliche und nichtstaatliche Stellen/Einrichtungen",
@@ -100,6 +100,7 @@
         "remote": "Remote-Dienste: Telefondolmetschen und Videodolmetschen für weltweite Erreichbarkeit.",
         "language": "Abdeckung seltener Sprachen: Überbrückung von Lücken für unterversorgte Sprachgemeinschaften.",
         "flexible": "Flexibilität: Persönliche, telefonische oder über Videoplattformen verfügbare Dienste.",
+        "global": "Weltweites Netzwerk qualifizierter Dolmetscher",
         "interpreter": "24/7-Verfügbarkeit: Unterstützung für dringende und zeitkritische Bedürfnisse.",
         "business": "Wirtschaft & Unternehmen: Verhandlungen, Messen, Präsentationen",
         "legal": "Recht & Verwaltung: Gerichtstermine, Befragungen, Bewährungsanhörungen, Haftbesuche",
@@ -220,8 +221,8 @@
     "editorial": {
       "title": "Redaktionell Verantwortlicher",
       "name": "Joseph Rerri",
-      "address": "Leverkusener Straße 27",
-      "city": "45772 Marl, Deutschland"
+      "address": "Heyerhoffstraße 38",
+      "city": "45770 Marl, Germany"
     },
     "euDispute": {
       "title": "EU-Streitschlichtung",
