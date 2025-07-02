@@ -47,8 +47,8 @@ export default function AboutPage() {
             className="relative h-[400px] lg:h-[500px]"
           >
             <Image
-              src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80"
-              alt="Professional translator at work"
+              src="https://images.unsplash.com/photo-1589330694653-ded6df03f754?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+              alt="Professional interpreter at work"
               fill
               className="object-cover rounded-lg shadow-xl"
               priority
