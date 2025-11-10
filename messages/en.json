@@ -136,38 +136,41 @@
     "subtitle": "Our Language Services",
     "mainLanguages": {
       "title": "Main Languages",
-      "description": "We specialize in these primary languages:",
+      "description": "All languages — including rare languages from:",
       "list": [
-        "German",
-        "English",
-        "Croatian"
+        "Africa",
+        "Asia",
+        "and the Middle East"
       ]
     },
     "additionalLanguages": {
       "title": "Additional Languages",
-      "description": "Access interpreters proficient in modern, rare and indigenous languages such as:",
+      "description": "Languages Covered (Including Rare and Regional Varieties):\n\nThe following list represents a selection of languages in which professional linguistic, translation, and interpretation services are available. It encompasses both widely spoken and lesser-known languages from Africa, Asia, and the Middle East:",
       "list": [
         "Amharic",
         "Baganda",
         "Bambara",
         "Chamba",
+        "Dazaga/Gorane",
         "Edo/Bini",
-        "Ewe",
-        "Fula",
+        "Ewe", "Fula",
         "Ga",
         "Hausa",
         "Igbo",
         "Ika",
         "Kirundi",
+        "Kotokoli",
         "Krio",
         "Kurdish",
         "Kurmanji",
         "Lingala",
         "Luganda",
+        "Malinke",
         "Mandinka",
-        "Mongolian",
         "Manou",
+        "Mongolian",
         "Oromo",
+        "Pidgin-English",
         "Pulaar Arabic",
         "Saho",
         "Somali",
@@ -175,12 +178,16 @@
         "Songhai",
         "Sorani",
         "Susu",
+        "Swahili",
+        "Tem",
         "Tigrinya",
         "Turkish",
+        "Twi",
         "Urdu",
         "Wolof",
         "Yoruba",
         "Zarma",
+        "Zoumol",
         "Zulu"
       ]
     },
@@ -196,7 +203,7 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyright": " Dolmetscherdienste Rerri. All rights reserved.",
-    "swornInterpreter": "Sworn and publicly appointed interpreter and translator by the president of the Higher Regional Court in Hamm, Germany."
+    "swornInterpreter": "Sworn and publicly appointed translator by the president of the Regional Court of Hannover, Germany."
   },
   "legal": {
     "title": "Legal Notice",
@@ -213,7 +220,7 @@
       "phone": "Phone",
       "phoneNumber": "+49 173 70 40 331",
       "fax": "Fax",
-      "faxNumber": "+49 (0) 236-52028434",
+      "faxNumber": "+49 (0) 2365-2028434",
       "email": "Email",
       "emailAddress": "info@dolmetscherdienst-rerri.de"
     },

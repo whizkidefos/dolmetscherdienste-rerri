@@ -1,6 +1,6 @@
 {
   "name": "dolmetscherdienste-rerri",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,6 +8,13 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "author": "Efosa Igbinehi",
+  "description": "Dolmetscherdienste RERRI",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/whizkidefos/dolmetscherdienste-rerri.git"
+  },
+  "license": "MIT",
   "dependencies": {
     "@formatjs/intl-localematcher": "^0.5.9",
     "@types/nodemailer": "^6.4.17",
