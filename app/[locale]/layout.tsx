@@ -5,6 +5,7 @@ import {notFound} from 'next/navigation';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import {ThemeProvider} from '@/context/ThemeContext';
+import GoogleAnalytics from '@/components/GoogleAnalytics';
 import {Inter} from 'next/font/google';
 import '../globals.css';
 
@@ -57,6 +58,7 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} suppressHydrationWarning>
       <body className={`${inter.className} bg-white dark:bg-gray-900 transition-colors`}>
+        <GoogleAnalytics />
         <NextIntlClientProvider locale={locale} messages={messages}>
           <ThemeProvider>
             <div className="min-h-screen flex flex-col">
