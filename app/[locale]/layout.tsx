@@ -47,6 +47,35 @@ export const metadata = {
       url: '/favicon.svg',
     },
   },
+  verification: {
+    google: 'your-google-verification-code',
+  },
+  alternates: {
+    canonical: 'https://dolmetscherdienste-rerri.de',
+    languages: {
+      'de': 'https://dolmetscherdienste-rerri.de/de',
+      'en': 'https://dolmetscherdienste-rerri.de/en',
+    },
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'de_DE',
+    url: 'https://dolmetscherdienste-rerri.de',
+    siteName: 'Dolmetscherdienste Rerri',
+    images: [
+      {
+        url: 'https://dolmetscherdienste-rerri.de/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Dolmetscherdienste Rerri - Professional Interpretation Services',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    site: '@dolmetscherdienste_rerri',
+    creator: '@dolmetscherdienste_rerri',
+  },
 };
 
 export default async function LocaleLayout({

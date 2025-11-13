@@ -4,6 +4,7 @@ import {useTranslations} from 'next-intl';
 import {motion} from 'framer-motion';
 import Image from 'next/image';
 import SectionTitle from '@/components/ui/SectionTitle';
+import StructuredData from '@/components/seo/StructuredData';
 
 export default function AboutPage() {
   const t = useTranslations('about');
@@ -34,7 +35,16 @@ export default function AboutPage() {
   ];
 
   return (
-    <div className="bg-white dark:bg-gray-900 transition-colors">
+    <>
+      <StructuredData 
+        type="webpage" 
+        data={{
+          title: t('title'),
+          description: t('subtitle'),
+          url: 'https://dolmetscherdienste-rerri.de/about'
+        }} 
+      />
+      <div className="bg-white dark:bg-gray-900 transition-colors">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
         <SectionTitle title={t('title')} subtitle={t('subtitle')} centered />
 
@@ -132,5 +142,6 @@ export default function AboutPage() {
         </div>
       </div>
     </div>
+    </>
   );
 }
